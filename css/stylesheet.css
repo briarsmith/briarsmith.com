@@ -1,0 +1,244 @@
+body, html {
+    margin: 0;
+    font-size: 100%;
+}
+
+::-webkit-scrollbar {
+    /*width: 0px;  !* remove scrollbar space *!*/
+    /*background: transparent;  !* optional: just make scrollbar invisible *!*/
+}
+
+#restcontent {
+    height: 100%;
+}
+/* Navbar CSS */
+#navyy {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    /*background-color: rgba(169,169,169, 0.8);*/
+    background-color: rgba(166,166,166,0.4);
+    /*background-color: rgba(188,192,194,0.4);*/
+    /*background-color: rgba(153,153,153,0.7);*/
+    margin: 0px;
+    height: 5%;
+    z-index: 4;
+}
+
+.background-pills {
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18.5px;
+    text-decoration: none;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 1.5%;
+    right: 1.5%;
+    color: white;
+    z-index: 4;
+    font-size: 225%;
+}
+/*or min-width*/
+/*@media (max-width: 768px) {*/
+    /*#wrapper {*/
+
+    /*}*/
+
+    /*li.navlist {*/
+        /*display: inline-block;*/
+        /*text-align: center;*/
+        /*white-space: pre;*/
+        /*content: "\a";*/
+    /*}*/
+
+    /*.in-slide-content {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    white-space: nowrap;
+    display: table;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.navlist {
+    display: table-cell;
+    width: 20%;
+    vertical-align: middle;
+    border-right: 1px solid rgba(166,166,166,0.4);
+    border-bottom: 1px solid rgba(166,166,166,0.4);
+}
+.navlist:hover {
+    cursor: pointer;
+    background-color: rgba(166,166,166,0.4);
+    /*border-right: 1px solid rgba(166,166,166,0.8);*/
+    /*border-bottom: 1px solid rgba(166,166,166,0.8);*/
+    /*border-left: 1px solid rgba(166,166,166,0.8);*/
+}
+
+.back-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 220%;
+    font-family: 'Fondamento', cursive;
+    /*color: white;*/
+    color: rgba(255,255,255,0.8);
+}
+
+.in-slide-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.rest {
+    text-align: center;
+    vertical-align: center;
+}
+
+#initial-content
+{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    height:100%;
+    z-index:3;
+}
+
+#after
+{
+    position:relative; 
+    left:0;
+    right:0;
+    z-index: 3;
+    /*background-color: #ECECEA;*/
+    
+}
+
+*::selection {
+    background: lightgrey; /* WebKit/Blink Browsers */
+}
+*::-moz-selection {
+    background: lightgrey; /* Gecko Browsers */
+}
+
+/* an easy solution for double clicking the menu icon is to
+add a pointer-events = none in the onclick. then globally set it
+to normal pointer events afterwards */
+
+/* Experience CSS */
+.experience-pics {
+    width: 60%;
+    float: right;
+
+}
+
+.text-container {
+    text-align: left;
+    width: 40%;
+}
+
+.text-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pic-container {
+    width: 100%;
+    margin-bottom: 3%;
+    overflow: auto;
+}
+
+#pic-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.experienceheader {
+    display: block;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.experienceheaderwrap {
+    width: 100%;
+    text-align: center;
+}
+
+.experiencepic {
+    width: 35%;
+    float: left;
+    border-radius: 40px;
+    font-size: 0;
+    line-height: 0;
+    margin-right: 1.9%;
+}
+
+.experiencetext {
+    font-family: 'Lato', sans-serif;
+    vertical-align: top;
+    text-align: left;
+    font-size: 120%;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 15%;
+    width: 35%;
+    margin-right: 4%;
+}
+
+.aboutmewrite {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 60%;
+}
+
+.aboutmecontent {
+    text-align: center;
+}
+
+.experienceloc {
+    color: dodgerblue;
+    display: inline-block;
+    margin-bottom: 0.8%;
+}
+
+.experiencepos {
+    color: forestgreen;
+}
+
+.aboutmephoto {
+    padding-bottom: 2%;
+}
+
+#about-me-section {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+#readmore1, #readmore2, #readmore3, #readmore4 {
+    font-size: 120%;
+    color: royalblue;
+    cursor: pointer;
+    /*text-decoration: underline;*/
+}
